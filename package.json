@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "sonar": "node sonar-scanner.js"
   },
   "author": "",
   "license": "MIT",
